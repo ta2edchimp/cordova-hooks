@@ -16,31 +16,12 @@ Increments the last number of the package's version number from within the proje
 ### after_prepare/resource_files.js
 
 Copies project assets into the corresponding platforms' directories.
-Prepare the following folder structure within the cordova project's base dir:
-
-  config
-    + android
-    |   + res
-    |       + drawable
-    |       |   + icon.png
-    |       |   + splash.9.png
-    |       |
-    |       + drawable-(l|m|h|xh)dpi
-    |           + icon.png
-    |           + splash.9.png
-    |
-    + ios
-       + Resources
-           + icons
-           |   + icon(|-small|-(40|50|60|72|76))(@2x).png
-           |
-           + splash
-               + Default(|-568h|-Landscape|-Portrait)(|@2x)~(iphone|ipad).png
+Prepare a folder structure corresponding to the target platforms' asset folders (see resource_files.js source code).
 
 Clear out the destination paths once, for iOS:
-  ./platforms/ios/{projectName}/Recources/(icons|splash)
+*./platforms/ios/{projectName}/Recources/(icons|splash)*
 for Android
-  ./platforms/android/res/drawable(|-(l|m|h|xh)dpi)
+*./platforms/android/res/drawable(|-(l|m|h|xh)dpi)*
 
 Make sure, you have a reference in the project's config.xml
   <icon src="res/icons/" />
