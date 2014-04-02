@@ -16,9 +16,9 @@ var filestocopy = [{
     "config/android/res/drawable-mdpi/icon.png": "platforms/android/res/drawable-mdpi/icon.png"
 }, {
     "config/android/res/drawable-xhdpi/icon.png": "platforms/android/res/drawable-xhdpi/icon.png"
-}, /*{
-    "config/android/res/drawable/splash.png": "platforms/android/res/drawable/splash.png"
-},*/ {
+}, {
+    "config/android/res/drawable/splash.9.png": "platforms/android/res/drawable/splash.9.png"
+}, {
     "config/android/res/drawable-hdpi/splash.9.png": "platforms/android/res/drawable-hdpi/splash.9.png"
 }, {
     "config/android/res/drawable-ldpi/splash.9.png": "platforms/android/res/drawable-ldpi/splash.9.png"
