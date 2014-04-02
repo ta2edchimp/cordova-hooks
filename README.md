@@ -26,3 +26,7 @@ for Android
 
 *./platforms/android/res/drawable(|-(l|m|h|xh)dpi)*
 
+## credits
+
+- *versioning.js* written by [Andreas Windt](http://andreaswindt.de) aka [ta2edchimp](http://github.com/ta2edchimp).
+- *resource_files.js* written by Dan Moore, presented on [devgirl's blog](http://devgirl.org/2013/11/12/three-hooks-your-cordovaphonegap-project-needs/)
