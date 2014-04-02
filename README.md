@@ -26,12 +26,3 @@ for Android
 
 *./platforms/android/res/drawable(|-(l|m|h|xh)dpi)*
 
-Make sure, you have a reference in the project's config.xml
-
-  <icon src="res/icons/" />
-
-for app icon, and for the splash screens:
-
-  <preference name="SplashScreen" value="splash" />
-
-  <preference name="SplashScreenDelay" value="10000" />
